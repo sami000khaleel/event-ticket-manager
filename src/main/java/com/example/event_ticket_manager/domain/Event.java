@@ -56,7 +56,7 @@ public class Event
     @LastModifiedDate
     @Column(name = "updatedAt",nullable = false)
     private LocalDateTime updatedAt;
-
+// all is good
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
